@@ -274,7 +274,6 @@ namespace SignalR.WindowsAzureServiceBus
             {
                 if (!this.isOpen)
                 {
-                    ServiceBusEnvironment.SystemConnectivity.Mode = ConnectivityMode.Tcp;
                     var messagingServiceUri = ServiceBusEnvironment.CreateServiceUri("sb", this.serviceBusNamespace, string.Empty);
                     var managementServiceUri = ServiceBusEnvironment.CreateServiceUri("https", this.serviceBusNamespace, string.Empty);
                     var tokenProvider = TokenProvider.CreateSharedSecretTokenProvider(this.serviceBusAccount, this.serviceBusAccountKey);
