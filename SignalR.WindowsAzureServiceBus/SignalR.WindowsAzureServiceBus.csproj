@@ -64,7 +64,6 @@
     <Compile Include="ServiceBusMessageBusMessageAvailableDispatcher.cs" />
     <Compile Include="ServiceBusMessageBusSendAsyncResult.cs" />
     <Compile Include="SimpleIOThreadScheduler.cs" />
-    <Compile Include="TimeoutHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
